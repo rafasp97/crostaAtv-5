@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(168, 167, 167);
+    font-family: Poppins;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 320px){
+    header{
+        height: 25vh;
+    }
+    .linguagem{
+        margin: 2em 1em;
+        background-color: transparent;
+        border: solid 1px #fff;
+        color: #fff;
+        font-family: Poppins;
+        padding: 0.2em 0.3em;
+        border-radius: 5px;
+    }
+    .linguagem option{
+        color: black;
+    }
+    .gamehive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 6em;
+    }
+    h1{
+        font-size: 3.5em;
+        position: relative;
+        bottom: 0.5em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-weight: normal;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        align-items: center;
+    }
+    .input{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        background: #3b4c5f;
+        padding: 0.5em 1.2em;
+        border-radius: 15px;
+        align-items: center;
+    }
+    .input1{
+        margin-bottom: 1em;
+    }
+    input[type="text"], input[type="password"]{
+        background: #3b4c5f;
+        border: none;
+        font-family: Poppins;
+        font-size: 0.9em;
+        display: flex;
+    }
+    input[type="text"]:focus,  input[type="password"]:focus{
+        outline: none;
+        color: #fff;
+    }
+    .icon{
+        width: 1.2em;
+        height: 1.2em;
+    }
+    .link-senha{
+        color: #f6ce38;
+        text-decoration: none;
+        font-size: 0.7em;
+        position: relative;
+        left: 5.5em;
+    }
+    .botao{
+        background: #f6ce38;
+        border: none;
+        border-radius: 15px;
+        margin-top: 2em;
+        font-family: Poppins;
+        font-size: 1em;
+        padding: 0.5em 2em;
+        color: #06203c;
+    }
+    p{
+        color: #f6ce38;
+    }
+    .link-registro{
+        color: #e2780c;
+        text-decoration: none;
+    }
+    p, .link-registro{
+        font-size: 11px;
+    }
+
+}
+@media (min-width: 375px){
+}
+@media (min-width: 425px){
+    header{
+        height: 20vh;
+    }
+    .logo{
+        width: 8em;
+    }
+    h1{
+        font-size: 4.5em;
+        position: relative;
+        bottom: 0.4em;
+    }
+}
+@media (min-width: 768px){
+    header{
+        height: 15vh;
+    }
+    .linguagem{
+        margin: 2em 2em;
+    }
+    .logo{
+        width: 9em;
+    }
+    h1{
+        font-size: 5.5em;
+        position: relative;
+        bottom: 0.4em;
+    }
+    .input{
+        width: 17em;
+    }
+    .icon{
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .link-senha{
+        font-size: 0.8em;
+        left: 6.8em;
+    }
+    .botao{
+        font-size: 1.3em;
+    }
+    p, .link-registro{
+        font-size: 13px;
+    }
+}
+@media (min-width: 1024px){
+    header{
+        height: 15vh;
+    }
+    .linguagem{
+        margin: 2em 2em;
+    }
+    .logo{
+        width: 10em;
+    }
+    h1{
+        font-size: 5.5em;
+        position: relative;
+        bottom: 0.4em;
+    }
+}
+@media (min-width: 1440px){
+    header{
+        height: 20vh;
+    }
+}
+@media (min-width: 2560px){
+    header{
+        height: 20vh;
+    }
+    .linguagem{
+        margin: 2em 2em;
+        font-size: 1.5em;
+    }
+    .logo{
+        width: 15em;
+    }
+    h1{
+        font-size: 10.5em;
+        position: relative;
+        bottom: 0.4em;
+    }
+    h2{
+        font-size: 3em;
+    }
+    h3{
+        font-size: 2.5em;
+    }
+    .input{
+        width: 17em;
+        font-size: 2em;
+    }
+    .link-senha{
+        font-size: 1.5em;
+        left: 7.5em;
+    }
+    .botao{
+        font-size: 2.5em;
+    }
+    p, .link-registro{
+        font-size: 25px;
+    }
+}
